@@ -1,0 +1,6 @@
+const {app}  = require("./app")
+const {user} = require("./user")
+const boot = require("./boot")
+console.dir(user)
+console.dir(app)
+console.dir(boot.run())

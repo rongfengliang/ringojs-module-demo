@@ -74,3 +74,16 @@ docker-compose up -d
 ```code
 open http://localhost:8080
 ```
+
+## use java jar lib
+
+```code
+use addToClasspath add jar libs
+
+call
+
+ // with package name
+var hashids = new org.hashids.Hashids("this is my salt");
+var hash = hashids.encode(12345);
+return response.html(hash)
+```

@@ -59,8 +59,18 @@ console.dir(boot.run())
 
 > base image dalongrong/ringojs-docker:1.2.1-local include rp 
 
+> use stick package
+
+* build && run
+
 ```code
 docker-compose build
 
 docker-compose up -d
+```
+
+* access
+
+```code
+open http://localhost:8080
 ```

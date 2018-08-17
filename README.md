@@ -1,6 +1,8 @@
 # ringojs module demo
 
-## user filename
+## how to work with module
+
+### user filename
 
 * app/app.js
 
@@ -51,4 +53,14 @@ console.dir(user)
 console.dir(app)
 console.dir(boot.run())
 
+```
+
+## run module with rp && docker
+
+> base image dalongrong/ringojs-docker:1.2.1-local include rp 
+
+```code
+docker-compose build
+
+docker-compose up -d
 ```
